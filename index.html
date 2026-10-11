@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="양현서의 개인 홈페이지입니다.">
+    <meta name="color-scheme" content="light dark">
+    <title>양현서 · Hyeonseo Yang</title>
+    <style>
+      :root { color-scheme: light dark; --bg: #faf9f6; --text: #252722; --muted: #686d62; --line: #dedfd7; --accent: #3d6146; }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.8; }
+      main, header, footer { width: min(760px, calc(100% - 48px)); margin-inline: auto; }
+      header { display: flex; justify-content: space-between; gap: 24px; padding-block: 28px; border-bottom: 1px solid var(--line); font-size: 14px; }
+      nav { display: flex; gap: 20px; }
+      a { color: var(--accent); text-underline-offset: 5px; }
+      nav a { color: var(--muted); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+      .intro { padding-block: 92px 64px; }
+      .eyebrow { margin: 0 0 12px; color: var(--accent); font-size: 12px; letter-spacing: .16em; }
+      h1 { margin: 0; font-size: clamp(42px, 8vw, 64px); letter-spacing: -.05em; line-height: 1.2; font-weight: 650; }
+      .english { margin: 12px 0 28px; color: var(--muted); font-size: 20px; }
+      .lead { max-width: 560px; font-size: 20px; }
+      section { padding-block: 32px; border-top: 1px solid var(--line); }
+      h2 { margin: 0 0 16px; font-size: 18px; font-weight: 600; }
+      p { margin-block: 12px; }
+      .muted { color: var(--muted); }
+      footer { margin-top: 48px; padding-block: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+      @media (prefers-color-scheme: dark) { :root { --bg: #191c18; --text: #e6e8e0; --muted: #a6ad9f; --line: #363d32; --accent: #b1d5b5; } }
+      @media (max-width: 480px) { header { flex-direction: column; gap: 12px; } .intro { padding-top: 64px; } }
+      @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span>HYEONSEO YANG</span>
+      <nav aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#projects">프로젝트</a>
+        <a href="https://github.com/yhs0602">GitHub ↗</a>
+      </nav>
+    </header>
+    <main>
+      <div class="intro">
+        <p class="eyebrow">PERSONAL WEBSITE</p>
+        <h1>안녕하세요, 양현서입니다.</h1>
+        <p class="english">Hyeonseo Yang</p>
+        <p class="lead">제 개인 홈페이지에 오신 것을 환영합니다.</p>
+      </div>
+      <section id="about">
+        <h2>소개 / About</h2>
+        <!-- 자기소개, 관심 분야, 경력 등을 이곳에 작성하세요. -->
+        <p class="muted">자기소개를 준비하고 있습니다.</p>
+      </section>
+      <section id="projects">
+        <h2>프로젝트 / Projects</h2>
+        <!-- 프로젝트가 준비되면 제목, 설명, 링크를 추가하세요. -->
+        <p class="muted">프로젝트와 작업 기록을 차차 정리할 예정입니다.</p>
+        <p><a href="https://github.com/yhs0602?tab=repositories">GitHub 저장소 둘러보기 ↗</a></p>
+      </section>
+      <section id="contact">
+        <h2>연결 / Connect</h2>
+        <p><a href="https://github.com/yhs0602">github.com/yhs0602 ↗</a></p>
+      </section>
+    </main>
+    <footer>© Hyeonseo Yang · Hosted on GitHub Pages</footer>
+  </body>
+</html>
