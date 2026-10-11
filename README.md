@@ -7,9 +7,13 @@
 
 ## 수정하기
 
-`index.html`에서 자기소개, 프로젝트, 링크를 수정합니다. CSS도 같은 파일의 `<style>`에 있습니다.
-학력, 연구 논문 6편, CraftGround 프로젝트, LinkedIn/GitHub 링크를 수록합니다.
+`index.html`에서 소개, 경력, 학력, 프로젝트, 링크를 수정합니다. 디자인은 `styles.css`, 언어 전환은 `language.js`에서 관리합니다.
+학력, 실무경험, 연구 논문 6편, 프로젝트 3개, 미국 등록 특허, LinkedIn/GitHub/Stack Overflow 링크를 수록합니다.
 각 논문은 `<article class="publication">`으로 작성되어 있으며, `<details>`에 한국어 초록 요약이 있습니다.
+번역할 문구는 `<span data-ko="한국어" data-en="English">한국어</span>` 형식을 사용합니다.
+오른쪽 상단 토글은 메뉴, 본문, 논문 요약, 문서 언어, 제목과 설명을 전환합니다. 선택 언어를 브라우저에 저장하며, URL의 `?lang=ko` 또는 `?lang=en`이 저장값보다 우선합니다.
+직접 공유: https://yhs0602.github.io/?lang=en
+자바스크립트가 비활성화되면 기본 한국어 본문을 표시합니다.
 
 로컬 미리보기:
 
@@ -22,7 +26,7 @@ python3 -m http.server 8000
 ## 배포하기
 
 ```sh
-git add index.html
+git add index.html styles.css language.js
 git commit -m "Update personal website"
 git push
 ```
@@ -67,3 +71,13 @@ GitHub Pages가 `main` 브랜치의 루트(`/`)를 자동 배포합니다.
 - From Sparse to Dense의 arXiv 초판은 2025년, 최종 권호는 2026년입니다. 저자에 Hyeonseo Yang이 없는 AAAI 2024의 유사 제목 논문은 제외했습니다.
 - CraftGround의 국내 논문과 IEEE Access 논문은 제목·DOI가 다른 출판물로 각각 수록합니다. IEEE Access 논문에 대응하는 arXiv는 확인되지 않아 링크를 만들지 않았습니다.
 - 한국어 초록은 원문 내용을 요약한 것이며 원문 초록을 그대로 복제한 것이 아닙니다. PDF를 확보하지 못한 논문은 출판사/학술 DB 페이지로 연결합니다.
+
+## 경력·특허 및 영문판 출처
+
+- 학위 취득 기간과 덧셈, SNULife, BlueSignum, Softberry, 3R Innovation의 재직 기간·업무는 본인이 제공한 최근 이력서에서 요약했습니다. 영문판도 같은 사실을 번역합니다.
+- 피플펀드는 본인이 재직하지 않았다고 확인해 제외했습니다. Softberry는 2022년 1–2월로 기재합니다.
+- 바이오시스템공학 입학 후 컴퓨터공학으로 전과한 이력은 본인 제공 정보에 따라 학력 아래 한 줄로 표기합니다.
+- HYPERCONNECT의 직책·재직 기간은 확인되지 않아 추정하지 않고 LinkedIn 경력 프로필 링크만 제공합니다.
+- [Stack Overflow 프로필](https://stackoverflow.com/users/8614565/hyeonseo-yang)은 첨부 이력서의 URL을 사용했습니다. 변동하는 평판·GitHub 별 수는 표시하지 않습니다.
+- [US11843471B2](https://patents.google.com/patent/US11843471B2/en): 공동 발명자 Chang-Gun Lee, Seonghyeon Park, Hyeonseo Yang; 등록일 2023-12-12; 특허권자 서울대학교 산학협력단. LinkedIn의 출원번호 17/857,542와 구분해 등록번호를 표시합니다.
+- 국내 논문의 영문 제목은 공식 영문 제목이 있는 경우 이를 사용하고, KSC 논문 제목은 설명을 위한 번역입니다. 초록 요약은 한국어와 영어로 제공합니다.
