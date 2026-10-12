@@ -47,9 +47,6 @@ p { margin-block: 10px; }
 .work ul { padding-left: 18px; font-size: 14px; color: var(--muted); }
 .work ul li { padding-left: 3px; margin-bottom: 10px; }
 .tech { color: var(--muted); font-size: 12px; line-height: 1.8; margin-top: 18px; }
-.affiliation { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding: 16px 20px; background: var(--tint); border-radius: 8px; margin-bottom: 18px; font-size: 14px; }
-.affiliation a { margin-left: auto; font-size: 13px; }
-.affiliation-dot { height: 7px; width: 7px; border-radius: 50%; background: var(--accent); }
 .section-intro { font-size: 14px; max-width: 760px; }
 .publication-group { font-size: 13px; color: var(--accent); margin: 30px 0 0; letter-spacing: .02em; }
 .publication { padding-block: 26px; border-bottom: 1px solid #edf2f3; }
@@ -89,7 +86,6 @@ footer { padding-block: 28px; border-top: 1px solid var(--line); display: flex; 
   .timeline > li { grid-template-columns: 1fr; gap: 8px; padding-block: 24px; }
   .skills > div { grid-template-columns: 1fr; gap: 3px; }
   section { padding-block: 32px 40px; }
-  .affiliation a { margin-left: 0; }
   footer { flex-direction: column; gap: 4px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

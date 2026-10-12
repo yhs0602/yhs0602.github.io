@@ -53,7 +53,7 @@ GitHub Pages가 `main` 브랜치의 루트(`/`)를 자동 배포합니다.
 2026-10-12 기준 확인. 본인 제공 학력과 공개 논문 저자 정보를 대조했습니다.
 학사 2023년·석사 2025년은 [Neurocomputing 출판본의 저자 소개](https://www.sciencedirect.com/science/article/pii/S0925231226018333)에서도 확인됩니다.
 경기고등학교와 석사 연구실은 본인 제공 정보입니다.
-[LinkedIn](https://www.linkedin.com/in/yhs0602/)의 공개 정보에서 HYPERCONNECT를 확인했으며 직책이나 재직 기간은 추정하지 않았습니다.
+HYPERCONNECT 직책은 [연구실 공식 동문 페이지](https://snu-bi.github.io/team/)에서 확인했으며, 재직 기간과 업무는 본인이 제공한 LinkedIn 경력 내용을 반영했습니다.
 
 | 논문 | 출판 정보 및 확인 자료 |
 | --- | --- |
@@ -77,7 +77,8 @@ GitHub Pages가 `main` 브랜치의 루트(`/`)를 자동 배포합니다.
 - 학위 취득 기간과 덧셈, SNULife, BlueSignum, Softberry, 3R Innovation의 재직 기간·업무는 본인이 제공한 최근 이력서에서 요약했습니다. 영문판도 같은 사실을 번역합니다.
 - 피플펀드는 본인이 재직하지 않았다고 확인해 제외했습니다. Softberry는 2022년 1–2월로 기재합니다.
 - 바이오시스템공학 입학 후 컴퓨터공학으로 전과한 이력은 본인 제공 정보에 따라 학력 아래 한 줄로 표기합니다.
-- HYPERCONNECT의 직책·재직 기간은 확인되지 않아 추정하지 않고 LinkedIn 경력 프로필 링크만 제공합니다.
+- HYPERCONNECT: Machine Learning Software Engineer, 정규직, 2025.10–현재, 서울 오피스 근무. 콘텐츠 모더레이션 PaaS 개발·운영. LinkedIn 직접 열람은 로그인 화면으로 제한되어 본인이 제공한 경력 내용을 사용했습니다. 변동하는 근속 개월 수는 표시하지 않습니다.
+- 어학: 본인 제공 듀오링고 아랍어 레벨 25, 러시아어 레벨 21. 학습 진행 레벨로 표기하며 공인 어학 등급으로 환산하지 않습니다.
 - [Stack Overflow 프로필](https://stackoverflow.com/users/8614565/hyeonseo-yang)은 첨부 이력서의 URL을 사용했습니다. 변동하는 평판·GitHub 별 수는 표시하지 않습니다.
 - [US11843471B2](https://patents.google.com/patent/US11843471B2/en): 공동 발명자 Chang-Gun Lee, Seonghyeon Park, Hyeonseo Yang; 등록일 2023-12-12; 특허권자 서울대학교 산학협력단. LinkedIn의 출원번호 17/857,542와 구분해 등록번호를 표시합니다.
 - 국내 논문의 영문 제목은 공식 영문 제목이 있는 경우 이를 사용하고, KSC 논문 제목은 설명을 위한 번역입니다. 초록 요약은 한국어와 영어로 제공합니다.
